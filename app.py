@@ -7,7 +7,7 @@ from io import BytesIO
 
 st.header("Subtitling Tool")
 
-api_key = st.text_input("Enter your AssemblyAI API", type="password")
+api_key = st.text_input("Enter your AssemblyAI API key", type="password")
 
 fileObjects = st.file_uploader(label = "Please upload your file", accept_multiple_files = True)
 
