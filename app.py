@@ -6,6 +6,7 @@ from zipfile import ZipFile
 from io import BytesIO
 
 st.header("Subtitling Tool")
+st.subheader("Generate your subtitles with AssemblyAI. You are given 3 hours of free conversion per month.")
 
 api_key = st.text_input("Enter your AssemblyAI API key", type="password")
 
